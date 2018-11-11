@@ -1,4 +1,4 @@
-package com.krew.restaurant.order_management;
+package com.krew.restaurant;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

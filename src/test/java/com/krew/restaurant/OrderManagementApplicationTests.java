@@ -1,4 +1,4 @@
-package com.krew.restaurant.order_management;
+package com.krew.restaurant;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
