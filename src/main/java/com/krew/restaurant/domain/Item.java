@@ -1,8 +1,10 @@
-package com.krew.restaurant.dto;
+package com.krew.restaurant.domain;
 
 import com.krew.restaurant.util.DrinkTypeEnum;
 import com.krew.restaurant.util.ItemTypeEnum;
 import lombok.*;
+
+import java.time.LocalDateTime;
 
 @Getter
 @Setter
@@ -11,8 +13,10 @@ import lombok.*;
 @ToString
 @Builder
 public class Item {
-    ItemTypeEnum itemType;
+    String itemType;
     int itemQuantity;
+    int tableNbr;
+    LocalDateTime createDtm;
 //    DrinkTypeEnum drinkType;
 //    int drinkQuantity;
 

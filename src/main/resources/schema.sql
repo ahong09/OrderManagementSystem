@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS item (item_type VARCHAR(20), quantity INT, table_nbr INT, create_dtm TIMESTAMP);
