@@ -1,4 +1,4 @@
-package com.krew.restaurant;
+package com.krew.tools;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,6 +1,6 @@
-package com.krew.restaurant.dao;
+package com.krew.tools.dao;
 
-import com.krew.restaurant.domain.Item;
+import com.krew.tools.domain.Item;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;

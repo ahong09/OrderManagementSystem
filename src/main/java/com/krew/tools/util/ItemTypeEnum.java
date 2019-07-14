@@ -1,4 +1,4 @@
-package com.krew.restaurant.util;
+package com.krew.tools.util;
 
 public enum ItemTypeEnum{
 

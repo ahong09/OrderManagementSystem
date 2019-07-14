@@ -1,7 +1,5 @@
-package com.krew.restaurant.domain;
+package com.krew.tools.domain;
 
-import com.krew.restaurant.util.DrinkTypeEnum;
-import com.krew.restaurant.util.ItemTypeEnum;
 import lombok.*;
 
 import java.time.LocalDateTime;
@@ -15,9 +13,5 @@ import java.time.LocalDateTime;
 public class Item {
     String itemType;
     int itemQuantity;
-    int tableNbr;
     LocalDateTime createDtm;
-//    DrinkTypeEnum drinkType;
-//    int drinkQuantity;
-
 }

@@ -1,7 +1,7 @@
-package com.krew.restaurant.rest;
+package com.krew.tools.rest;
 
-import com.krew.restaurant.dao.ItemDAO;
-import com.krew.restaurant.domain.Item;
+import com.krew.tools.dao.ItemDAO;
+import com.krew.tools.domain.Item;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-public class OrderMangement {
+public class ScannerTool {
 
     @Autowired
     ItemDAO dao;

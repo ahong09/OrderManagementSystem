@@ -1,16 +1,14 @@
-package com.krew.restaurant;
+package com.krew.tools;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-import javax.annotation.PostConstruct;
-
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.krew.restaurant"})
-public class OrderManagementApplication {
+@ComponentScan(basePackages = {"com.krew.tools"})
+public class ScannerToolApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OrderManagementApplication.class, args);
+		SpringApplication.run(ScannerToolApplication.class, args);
 	}
 }
